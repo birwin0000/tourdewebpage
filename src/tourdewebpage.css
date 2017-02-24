@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'TourFont';
+  src: url("Note_this.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.tourdewebpage-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  display: none
+  }
+
+.tourdewebpage-text-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#tourdewebpage-text-box {
+  position: fixed;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'TourFont'; }
+
+#tourdewebpage-text-box button {
+  color: #000; }
+
+#tourdewebpage-next-button {
+  width: 100%;
+  text-align: center; }
+
+.vcentered {
+  vertical-align: middle; }
+
+h1.tourdewebpage-active,
+p.tourdewebpage-active,
+h2.tourdewebpage-active,
+h3.tourdewebpage-active,
+h4.tourdewebpage-active,
+h5.tourdewebpage-active {
+	background-color: transparent;
+	color: #fff;
+	display: inline-block;
+}
+
+.tourdewebpage-active {
+  position: relative;
+  background-color: #fff;
+  /*display: inline-block; */ }
